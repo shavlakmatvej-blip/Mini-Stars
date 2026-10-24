@@ -14,7 +14,7 @@ const OFFLINE_URL = 'MiniStars.offline.html';
 const ENSURE_CROSSORIGIN_ISOLATION_HEADERS = true;
 // Files that will be cached on load.
 /** @type {string[]} */
-const CACHED_FILES = ["MiniStars.html","MiniStars.js","MiniStars.offline.html","MiniStars.icon.png","MiniStars.apple-touch-icon.png","MiniStars.audio.worklet.js","MiniStars.audio.position.worklet.js"];
+const CACHED_FILES = ["index.html","MiniStars.js","MiniStars.offline.html","MiniStars.icon.png","MiniStars.apple-touch-icon.png","MiniStars.audio.worklet.js","MiniStars.audio.position.worklet.js"];
 // Files that we might not want the user to preload, and will only be cached on first load.
 /** @type {string[]} */
 const CACHEABLE_FILES = ["MiniStars.wasm","MiniStars.pck"];
