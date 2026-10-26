@@ -4,7 +4,11 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
+<<<<<<< HEAD:MiniStarsBeta.service.worker.js
 const CACHE_VERSION = '1793006226|173473169052';
+=======
+const CACHE_VERSION = '1792836491|3173478932';
+>>>>>>> ed4196204168a9169fd401377827775a5334bb14:MiniStars.service.worker.js
 /** @type {string} */
 const CACHE_PREFIX = 'Mini Stars - V1.-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
@@ -14,7 +18,11 @@ const OFFLINE_URL = 'MiniStarsBeta.offline.html';
 const ENSURE_CROSSORIGIN_ISOLATION_HEADERS = true;
 // Files that will be cached on load.
 /** @type {string[]} */
+<<<<<<< HEAD:MiniStarsBeta.service.worker.js
 const CACHED_FILES = ["MiniStarsBeta.html","MiniStarsBeta.js","MiniStarsBeta.offline.html","MiniStarsBeta.icon.png","MiniStarsBeta.apple-touch-icon.png","MiniStarsBeta.audio.worklet.js","MiniStarsBeta.audio.position.worklet.js"];
+=======
+const CACHED_FILES = ["index.html","MiniStars.js","MiniStars.offline.html","MiniStars.icon.png","MiniStars.apple-touch-icon.png","MiniStars.audio.worklet.js","MiniStars.audio.position.worklet.js"];
+>>>>>>> ed4196204168a9169fd401377827775a5334bb14:MiniStars.service.worker.js
 // Files that we might not want the user to preload, and will only be cached on first load.
 /** @type {string[]} */
 const CACHEABLE_FILES = ["MiniStarsBeta.wasm","MiniStarsBeta.pck"];
