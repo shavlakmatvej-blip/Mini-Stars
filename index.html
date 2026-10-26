@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-		<title>Mini Stars - V1.0</title>
+		<title>Mini Stars - V1.1</title>
 		<style>
 html, body, #canvas {
 	margin: 0;
@@ -38,7 +38,7 @@ body {
 }
 
 #status {
-	background-color: #000000;
+	background-color: #242424;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -90,9 +90,9 @@ body {
 	z-index: 1;
 }
 		</style>
-		<link id="-gd-engine-icon" rel="icon" type="image/png" href="MiniStars.icon.png" />
-<link rel="apple-touch-icon" href="MiniStars.apple-touch-icon.png"/>
-<link rel="manifest" href="MiniStars.manifest.json">
+		<link id="-gd-engine-icon" rel="icon" type="image/png" href="MiniStarsBeta.icon.png" />
+<link rel="apple-touch-icon" href="MiniStarsBeta.apple-touch-icon.png"/>
+<link rel="manifest" href="MiniStarsBeta.manifest.json">
 
 	</head>
 	<body>
@@ -105,14 +105,14 @@ body {
 		</noscript>
 
 		<div id="status">
-			<img id="status-splash" class="show-image--false fullsize--true use-filter--true" src="MiniStars.png" alt="">
+			<img id="status-splash" class="show-image--true fullsize--true use-filter--true" src="MiniStarsBeta.png" alt="">
 			<progress id="status-progress"></progress>
 			<div id="status-notice"></div>
 		</div>
 
-		<script src="MiniStars.js"></script>
+		<script src="MiniStarsBeta.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"MiniStars","experimentalVK":true,"fileSizes":{"MiniStars.pck":23119788,"MiniStars.wasm":39513091},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4,"serviceWorker":"MiniStars.service.worker.js"};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"MiniStarsBeta","experimentalVK":true,"fileSizes":{"MiniStarsBeta.pck":16876232,"MiniStarsBeta.wasm":39513091},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4,"serviceWorker":"MiniStarsBeta.service.worker.js"};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
